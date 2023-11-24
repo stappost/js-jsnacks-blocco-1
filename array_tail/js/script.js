@@ -13,7 +13,13 @@ for(i=0; i<quantity; i++){
 }
 console.log(array);
 // 5 - stampiamo gli ultimi 5 elementi
-let elements=array.length-1
-for(i=elements; i>elements-5; i--){
-    console.log(array[i]);
+let leave = parseInt(prompt("scrivere in forma numerica quanti elementi dell'array stampare"));
+let elements=array.length-1;
+if(array.length > leave){
+    for(i=elements; i>elements - leave ; i--){
+        console.log(array[i]);
+    }
+}
+else{
+    console.log("mi spiace ma il numero non è valido");
 }
