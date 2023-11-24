@@ -34,10 +34,20 @@ SCAFFOLDING TUTTIFRUTTI
 1 - creare array con la lista della frutta
 2 - mettere la pesca nell'array
 3 - controlliamo ogni elemento dell'array per vedere se c'è il cocomero
-4 - SE c'è 
-    4.1 - stampare "Trovato! Devo solo preparare il cocktail."
-5 - ALTRIMENTI
-    5.1 - stampare "Oh no, devo uscire a comprare il cocomero!"
+3 - creiamo variabile flag 
+4 - controlliamo ogni elemento dell'array per vedere se c'è il cocomero
+5 - se c'è metto la variabile flag = true 
+6 - SE c'è 
+    6.1 - stampare "Trovato! Devo solo preparare il cocktail."
+7 - ALTRIMENTI
+    7.1 - stampare "Oh no, devo uscire a comprare il cocomero!"
+
+SCAFFOLDING LA CODA DELL'ARRAY
+1 - chiediamo al cliente quanti elementi dovrà contenere l'array
+2 - creiamo array vuoto
+3 - generiamo numeri casuali (da 1 a 100) tanti quanti sono quelli richiesti
+4 - inseriamo i numeri nell'array
+5 - stampiamo gli ultimi 5 elementi
 
 
 
