@@ -50,7 +50,11 @@ SCAFFOLDING LA CODA DELL'ARRAY
 5 - stampiamo gli ultimi 5 elementi
 
 
-
+SCAFFOLDING (BONUS)
+1 - creare due array vuoti
+2 - creare 3 numeri casuali e aggiungerli al primo array
+3 - creare 7 numeri casuali e aggiungerli al secondo array
+4 - creare ciclo che aggiunge al primo array numeri casuali fino a raggiungere il secondo
 
 
 
