@@ -30,7 +30,14 @@ Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
 Buon lavoro e buon divertimento! 
 
-
+SCAFFOLDING TUTTIFRUTTI
+1 - creare array con la lista della frutta
+2 - mettere la pesca nell'array
+3 - controlliamo ogni elemento dell'array per vedere se c'è il cocomero
+4 - SE c'è 
+    4.1 - stampare "Trovato! Devo solo preparare il cocktail."
+5 - ALTRIMENTI
+    5.1 - stampare "Oh no, devo uscire a comprare il cocomero!"
 
 
 
