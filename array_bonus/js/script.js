@@ -14,8 +14,18 @@ for(i=0; i<7; i++){
 console.log(array2)
 // 4 - creare variabile = differenza tra i due array e ciclo che aggiunge al primo array numeri casuali fino a raggiungere il secondo
 
-let diff = array2.length - array1.length;
-for(i=0; i<diff; i++){
-    array1.push(Math.floor(Math.random()*100)+1);
+let diff;
+if(array2.length > array1.length){
+    diff = array2.length - array1.length;
+    for(i=0; i<diff; i++){
+        array1.push(Math.floor(Math.random()*100)+1);
+    }
 }
-console.log(array1)
+else{
+    diff = array1.length - array2.length
+    for(i=0; i<diff; i++){
+        array2.push(Math.floor(Math.random()*100)+1);
+    }
+}
+console.log(array1);
+console.log(array2);
